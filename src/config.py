@@ -1,0 +1,39 @@
+import pygame
+
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+TILE_SIZE = 32
+FPS = 60
+
+COLOR_FLOOR = (50, 50, 50)
+COLOR_WALL = (80, 80, 80)
+COLOR_WALL_BORDER = (60, 60, 60)
+COLOR_BACKGROUND = (20, 20, 20)
+COLOR_TAGGER = (220, 50, 50)
+COLOR_RUNNER = (50, 50, 220)
+COLOR_GRID = (60, 60, 60)
+COLOR_HUD = (255, 255, 255)
+COLOR_INDICATOR = (200, 200, 50)
+COLOR_MENU_BG = (30, 30, 30)
+COLOR_MENU_TEXT = (200, 200, 200)
+COLOR_MENU_TITLE = (255, 200, 50)
+
+PLAYER_SPEED = 200
+PLAYER_RADIUS = 12
+TAG_DISTANCE = 20
+INVINCIBILITY_TIME = 1.0
+
+ROUND_TIME = 60
+
+P1_KEYS = {
+    pygame.K_w: (0, -1),
+    pygame.K_s: (0, 1),
+    pygame.K_a: (-1, 0),
+    pygame.K_d: (1, 0),
+}
+P2_KEYS = {
+    pygame.K_UP: (0, -1),
+    pygame.K_DOWN: (0, 1),
+    pygame.K_LEFT: (-1, 0),
+    pygame.K_RIGHT: (1, 0),
+}
